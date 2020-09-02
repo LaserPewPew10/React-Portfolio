@@ -1,4 +1,5 @@
 import React from "react";
+import Project1 from "../../img/ProjectImages/City of Geneva .jpg";
 
 const Portfolio = () => {
   return (
@@ -27,7 +28,7 @@ const Portfolio = () => {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="assets/City of Geneva .jpg"
+                  src={Project1}
                   className="card-img-top"
                   id="a"
                   alt="City of Geneva"

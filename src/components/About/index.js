@@ -1,4 +1,5 @@
 import React from "react";
+import AboutMe from "../../img/MainImage/FullSizeRender.jpeg";
 
 const About = () => {
   return (
@@ -17,12 +18,7 @@ const About = () => {
             </div>
             <div className="row">
               <div className="col-sm-12">
-                <img
-                  className="aboutme"
-                  id="a"
-                  src="assets/FullSizeRender.jpeg"
-                  alt="Profile"
-                />
+                <img className="aboutme" id="a" src={AboutMe} alt="Profile" />
                 Greetings! My name's Justin Ramirez and I'm an aspiring
                 Full-Stack Software Developer.
                 <br />
