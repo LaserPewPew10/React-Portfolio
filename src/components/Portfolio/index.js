@@ -17,11 +17,13 @@ const Portfolio = () => {
           <div className="row row-cols-1 row-cols-md-2">
             <div className="col mb-4">
               <div className="card">
-                <img
-                  src={Project2}
-                  className="card-img-top"
-                  alt="City of Lucerne"
-                />
+                <a
+                  href="https://dianapulatova.github.io/NUZ/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img src={Project1} className="card-img-top" alt="NUZ" />
+                </a>
                 <div className="card-body">
                   <h5 className="card-title">NUZ</h5>
                   <p className="card-text"></p>
@@ -30,40 +32,58 @@ const Portfolio = () => {
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img
-                  src={Project1}
-                  className="card-img-top"
-                  id="a"
-                  alt="City of Geneva"
-                />
+                <a
+                  href="https://fitness-tracker10.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src={Project2}
+                    className="card-img-top"
+                    id="a"
+                    alt="City of Geneva"
+                  />
+                </a>
                 <div className="card-body">
-                  <h5 className="card-title">Weather Dashboard</h5>
+                  <h5 className="card-title">Fitness Tracker</h5>
                   <p className="card-text"></p>
                 </div>
               </div>
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img
-                  src={Project3}
-                  className="card-img-top"
-                  alt="City of Barcelona"
-                />
+                <a
+                  href="https://budget-tracker-pwa1.herokuapp.com/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src={Project3}
+                    className="card-img-top"
+                    alt="City of Barcelona"
+                  />
+                </a>
                 <div className="card-body">
-                  <h5 className="card-title">Schedule Planner</h5>
+                  <h5 className="card-title">Budget Tracker</h5>
                   <p className="card-text"></p>
                 </div>
               </div>
             </div>
             <div className="col mb-4">
               <div className="card">
-                <img
-                  src={Project4}
-                  className="card-img-top"
-                  alt="City of Frankfurt"
-                />
+                <a
+                  href="https://ancient-oasis-67335.herokuapp.com/main"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    src={Project4}
+                    className="card-img-top"
+                    alt="City of Frankfurt"
+                  />
+                </a>
                 <div className="card-body">
-                  <h5 className="card-title">Password Generator</h5>
+                  <h5 className="card-title">Vegan Restaurant Finder</h5>
                   <p className="card-text"></p>
                 </div>
               </div>
