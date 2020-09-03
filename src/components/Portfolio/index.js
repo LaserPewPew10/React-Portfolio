@@ -1,5 +1,8 @@
 import React from "react";
 import Project1 from "../../img/ProjectImages/City of Geneva .jpg";
+import Project2 from "../../img/ProjectImages/View-over-Lucerne-Switzerland.jpg";
+import Project3 from "../../img/ProjectImages/kimpton-barcelona-1700x750-v2.jpeg";
+import Project4 from "../../img/ProjectImages/Romer-town-hall-Germany-Frankfurt-am-Main.jpg";
 
 const Portfolio = () => {
   return (
@@ -15,7 +18,7 @@ const Portfolio = () => {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="assets/View-over-Lucerne-Switzerland.jpg"
+                  src={Project2}
                   className="card-img-top"
                   alt="City of Lucerne"
                 />
@@ -42,7 +45,7 @@ const Portfolio = () => {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="assets/kimpton-barcelona-1700x750-v2.jpeg"
+                  src={Project3}
                   className="card-img-top"
                   alt="City of Barcelona"
                 />
@@ -55,7 +58,7 @@ const Portfolio = () => {
             <div className="col mb-4">
               <div className="card">
                 <img
-                  src="assets/Romer-town-hall-Germany-Frankfurt-am-Main.jpg"
+                  src={Project4}
                   className="card-img-top"
                   alt="City of Frankfurt"
                 />
