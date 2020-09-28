@@ -22,12 +22,10 @@ const About = () => {
                 Greetings! My name's Justin Ramirez and I'm an aspiring
                 Full-Stack Software Developer.
                 <br />
-                <br />
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-                perferendis exercitationem nesciunt reprehenderit corporis
-                voluptatem nulla iste neque doloremque commodi, iusto recusandae
-                veniam. Id necessitatibus praesentium aspernatur aliquid
-                voluptates debitis!
+                <br />I am a Mechanical Engineer with experience for building
+                detailed oriented applications for users on the web. I have a
+                passion for problem-solving and learning new technologies, which
+                can be applied to most positions and web development projects.
               </div>
             </div>
           </section>
